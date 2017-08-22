@@ -95,7 +95,7 @@ if ([ViewController isiPhone7oriPhone7Plus] && [UIDevice currentDevice].systemVe
 ```
 
 #### 运行效果图
-![image](https://raw.githubusercontent.com/EchoZuo/iOSCoreNFC/master/Resource/4.png)
+![image](https://raw.githubusercontent.com/EchoZuo/iOSCoreNFC/master/Resource/4.PNG)
 
 ![image](https://raw.githubusercontent.com/EchoZuo/iOSCoreNFC/master/Resource/5.png)
 ###### 由于身边的NFC卡片都未识别成功，所以图二识别完成后的截图为WWDC视频中的截图。
