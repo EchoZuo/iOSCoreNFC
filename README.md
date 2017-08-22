@@ -94,11 +94,12 @@ if ([ViewController isiPhone7oriPhone7Plus] && [UIDevice currentDevice].systemVe
 [session invalidateSession];
 ```
 ### 资料
-> https://github.com/EchoZuo/iOSCoreNFC
-> http://www.baidu.com
-> https://developer.apple.com/documentation/corenfc#overview
-> https://developer.apple.com/videos/play/wwdc2017/718/
-> https://stackoverflow.com/questions/44380305/ios-11-core-nfc-any-sample-code
+> https://github.com/EchoZuo/iOSCoreNFC 
+> http://www.baidu.com 
+> https://developer.apple.com/documentation/corenfc#overview 
+> https://developer.apple.com/videos/play/wwdc2017/718/ 
+> https://stackoverflow.com/questions/44380305/ios-11-core-nfc-any-sample-code 
+
 
 
 
