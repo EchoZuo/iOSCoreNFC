@@ -104,6 +104,9 @@ if ([ViewController isiPhone7oriPhone7Plus] && [UIDevice currentDevice].systemVe
 > https://stackoverflow.com/questions/44380305/ios-11-core-nfc-any-sample-code 
 > https://developer.apple.com/videos/play/wwdc2017/718/ 
 
+### 
+Email: zuoqianheng@foxmail.com || QQ:615125175
+简书：@EchoZuo 或者 http://www.jianshu.com/u/3390ce71084e
 
 
 
