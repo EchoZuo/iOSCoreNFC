@@ -95,7 +95,9 @@ if ([ViewController isiPhone7oriPhone7Plus] && [UIDevice currentDevice].systemVe
 ```
 
 #### 运行效果图
-![image](http://note.youdao.com/favicon.ico)
+![image](http://note.youdao.com/yws/public/resource/357231ddfcbd2ad2f747cdb296ffb119/xmlnote/WEBRESOURCE26d39f1f1e2ffd6cc26c2d21cb1fc9ed/11303)
+![image](http://note.youdao.com/yws/public/resource/357231ddfcbd2ad2f747cdb296ffb119/xmlnote/WEBRESOURCE0c7abd24b157b01fb08ff06302c0cdb6/11306)
+###### 由于身边的NFC卡片都未识别成功，所以图二识别完成后的截图为WWDC视频中的截图。
 
 ##### 通过测试，目前用iphone7plus+iOS11测试读取上海公交卡、公司门禁卡，都没有读取成功，代码逻辑应该没有问题。可能是这些NFC芯片数据格式问题？不太确定是什么原因。不过貌似网上有人说是iOS11的问题，可以等iOS11正式版发布后再试试看，我也会持续关注。如果大家有相关的答案也可以告知我。谢谢。
 
@@ -105,8 +107,9 @@ if ([ViewController isiPhone7oriPhone7Plus] && [UIDevice currentDevice].systemVe
 > https://developer.apple.com/videos/play/wwdc2017/718/ 
 
 ---
-> Email: zuoqianheng@foxmail.com || QQ:615125175
-> 简书：@EchoZuo 或者 http://www.jianshu.com/u/3390ce71084e
+- https://github.com/EchoZuo
+- Email: zuoqianheng@foxmail.com || QQ:615125175 
+- 简书：[@EchoZuo](http://www.jianshu.com/u/3390ce71084e)
 
 
 
