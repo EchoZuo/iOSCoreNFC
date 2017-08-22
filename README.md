@@ -34,7 +34,7 @@ This sample shows how to integrate Core NFC Framework into your application to e
 ---
 
 ## 示例代码
-#### 其实Core NFC目前放出的权限很少，只支持特定格式的NFC数据读取，不支持输出和格式设置，所以代码上并不难，可以说是傻瓜式的调用处理即可。我猜想可能是因为Apple为了保证Apple Pay的安全性，毕竟Apple Pay也是采用NFC完成支付。
+###### 其实Core NFC目前放出的权限很少，只支持特定格式的NFC数据读取，不支持输出和格式设置，所以代码上并不难，可以说是傻瓜式的调用处理即可。我猜想可能是因为Apple为了保证Apple Pay的安全性，毕竟Apple Pay也是采用NFC完成支付。由于代码逻辑很简单，这里就不提供工程文件，只提供主要逻辑代码。
 
 #### 使用Core NFC
 - @import CoreNFC 导入框架，这点没啥可说的
@@ -43,7 +43,6 @@ This sample shows how to integrate Core NFC Framework into your application to e
 - 开启 NFCNDEFReaderSession 以及处理协议回调方法
 
 #### 具体代码如下如下
-
 ```
 // @import CoreNFC 导入框架
 // 遵循 NFCNDEFReaderSessionDelegate 协议
@@ -99,3 +98,5 @@ if ([ViewController isiPhone7oriPhone7Plus] && [UIDevice currentDevice].systemVe
 // 主动终止会话，调用如下方法即可。
 [session invalidateSession];
 ```
+
+
