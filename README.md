@@ -1,8 +1,6 @@
 # iOSCoreNFC
 This sample shows how to integrate Core NFC Framework into your application to enable NFC tag reading.
 
-
----
 ## About Core NFC 
 #### Core NFC支持的读取数据类型：
 ![image](http://note.youdao.com/yws/public/resource/357231ddfcbd2ad2f747cdb296ffb119/xmlnote/WEBRESOURCEafc5a7fd5f348a07cb90574a7a113202/11238)
