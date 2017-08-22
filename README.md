@@ -16,7 +16,6 @@ This sample shows how to integrate Core NFC Framework into your application to e
 - （必须）像Apple pay或者Push Notification一样，需要添加一个entitlement
 - （保修）在plist文件中添加Privacy - NFC Scan Usage Description。这里使用的描述信息会显示在读取界面中
 
-#### 要求示例如图：
 ![image](http://note.youdao.com/yws/public/resource/357231ddfcbd2ad2f747cdb296ffb119/xmlnote/WEBRESOURCEf04efe488cba4f9f77013612e0df8824/11242)
 
 ![image](http://note.youdao.com/yws/public/resource/357231ddfcbd2ad2f747cdb296ffb119/xmlnote/WEBRESOURCE97560d5f1c9e914a956b795b3463b1a1/11240)
@@ -27,8 +26,6 @@ This sample shows how to integrate Core NFC Framework into your application to e
     -   Tips：这里我做过一个测试，实际上当Core NCF读取标签界面出现后，无法下拉通知栏中心，也无法上滑出现控制中心，如果识别过程中，点击home第一次会取消识别，不会直接进入主屏幕。这样的设计应该是为了防止在识别过程中出现误操作等情况的发生
 -  读取标签被限制的60秒之内。意思就是60秒内标签必须识别完成，否则session会自动终止。如果会话过期或者未经过验证，则你的程序需要重新去建立新的会话
 -  Core NFC可以设置会话读取一个标签或者多个标签。在读取单个标签的时候，读取完成后，会话自动终止。如果读取多个标签，会话会一直持续直到程序主动终止会话或者60秒后。60秒是一个最大的节点
-
-
 ---
 
 ## 示例代码
