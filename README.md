@@ -93,9 +93,11 @@ if ([ViewController isiPhone7oriPhone7Plus] && [UIDevice currentDevice].systemVe
 // 主动终止会话，调用如下方法即可。
 [session invalidateSession];
 ```
-### 参考
+### 资料
+> https://github.com/EchoZuo/iOSCoreNFC
 > https://developer.apple.com/documentation/corenfc#overview
 > https://developer.apple.com/videos/play/wwdc2017/718/
 > https://stackoverflow.com/questions/44380305/ios-11-core-nfc-any-sample-code
+
 
 
