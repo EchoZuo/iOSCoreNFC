@@ -95,8 +95,8 @@ if ([ViewController isiPhone7oriPhone7Plus] && [UIDevice currentDevice].systemVe
 ```
 ### 资料
 > https://developer.apple.com/documentation/corenfc#overview 
-> https://developer.apple.com/videos/play/wwdc2017/718/ 
 > https://stackoverflow.com/questions/44380305/ios-11-core-nfc-any-sample-code 
+> https://developer.apple.com/videos/play/wwdc2017/718/ 
 
 
 
