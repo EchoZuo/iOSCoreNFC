@@ -93,6 +93,12 @@ if ([ViewController isiPhone7oriPhone7Plus] && [UIDevice currentDevice].systemVe
 // 主动终止会话，调用如下方法即可。
 [session invalidateSession];
 ```
+
+#### 运行效果图
+![image](http://note.youdao.com/favicon.ico)
+
+##### 通过测试，目前用iphone7plus+iOS11测试读取上海公交卡、公司门禁卡，都没有读取成功，代码逻辑应该没有问题。可能是这些NFC芯片数据格式问题？不太确定是什么原因。不过貌似网上有人说是iOS11的问题，可以等iOS11正式版发布后再试试看，我也会持续关注。如果大家有相关的答案也可以告知我。谢谢。
+
 ### 资料
 > https://developer.apple.com/documentation/corenfc#overview 
 > https://stackoverflow.com/questions/44380305/ios-11-core-nfc-any-sample-code 
