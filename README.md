@@ -3,27 +3,27 @@ This sample shows how to integrate Core NFC Framework into your application to e
 
 
 ---
-#### About Core NFC 
-##### Core NFC支持的读取数据类型：
+## About Core NFC 
+#### Core NFC支持的读取数据类型：
 ![image](http://note.youdao.com/yws/public/resource/357231ddfcbd2ad2f747cdb296ffb119/xmlnote/WEBRESOURCEafc5a7fd5f348a07cb90574a7a113202/11238)
 
-##### Core NFC框架特性/要求
+#### Core NFC框架特性/要求
 - 目前支持NFC Tags（标签）的读取
 - 不支持输出和格式设置
 - 仅支持iphone 7 & iphone 7plus，且iOS11系统
 
 ---
-#### 项目加入Core NFC框架使用的要求
+## 项目加入Core NFC框架使用的要求
 - （必须）支持iOS11，且只有iOS11和iphone7/plus机型才可以
 - （必须）像Apple pay或者Push Notification一样，需要添加一个entitlement
 - （保修）在plist文件中添加Privacy - NFC Scan Usage Description。这里使用的描述信息会显示在读取界面中
 
-###### 要求示例如图：
+#### 要求示例如图：
 ![image](http://note.youdao.com/yws/public/resource/357231ddfcbd2ad2f747cdb296ffb119/xmlnote/WEBRESOURCEf04efe488cba4f9f77013612e0df8824/11242)
 
 ![image](http://note.youdao.com/yws/public/resource/357231ddfcbd2ad2f747cdb296ffb119/xmlnote/WEBRESOURCE97560d5f1c9e914a956b795b3463b1a1/11240)
 
-##### 集成Core NFC中的一些细节说明
+#### 集成Core NFC中的一些细节说明
 - 设备读取标签是一个被动的过程，所以需要程序主动发起一个会话即为session去读取标签。与处理摄像头相关功能类似，所有的操作都必须建立在session基础之上
 - 程序必须始终保持前台运行并且识别界面可视。如果至于后台session会自动终止，读取失败。
     -   Tips：这里我做过一个测试，实际上当Core NCF读取标签界面出现后，无法下拉通知栏中心，也无法上滑出现控制中心，如果识别过程中，点击home第一次会取消识别，不会直接进入主屏幕。这样的设计应该是为了防止在识别过程中出现误操作等情况的发生
@@ -33,16 +33,16 @@ This sample shows how to integrate Core NFC Framework into your application to e
 
 ---
 
-#### 示例代码
-##### 其实Core NFC目前放出的权限很少，只支持特定格式的NFC数据读取，不支持输出和格式设置，所以代码上并不难，可以说是傻瓜式的调用处理即可。我猜想可能是因为Apple为了保证Apple Pay的安全性，毕竟Apple Pay也是采用NFC完成支付。
+## 示例代码
+#### 其实Core NFC目前放出的权限很少，只支持特定格式的NFC数据读取，不支持输出和格式设置，所以代码上并不难，可以说是傻瓜式的调用处理即可。我猜想可能是因为Apple为了保证Apple Pay的安全性，毕竟Apple Pay也是采用NFC完成支付。
 
-###### 使用Core NFC
+#### 使用Core NFC
 - @import CoreNFC 导入框架，这点没啥可说的
 - 遵循 NFCNDEFReaderSessionDelegate 协议
 - 创建 NFCNDEFReaderSession 实例
 - 开启 NFCNDEFReaderSession 以及处理协议回调方法
 
-###### 具体代码如下如下
+#### 具体代码如下如下
 
 ```
 // @import CoreNFC 导入框架
