@@ -103,10 +103,10 @@ if ([ViewController isiPhone7oriPhone7Plus] && [UIDevice currentDevice].systemVe
 ##### 通过测试，目前用iphone7plus+iOS11测试读取上海交通卡、公司门禁卡，都没有读取成功，代码逻辑应该没有问题。可能是这些NFC芯片数据格式问题？不太确定是什么原因。不过貌似网上有人说是iOS11的问题，可以等iOS11正式版发布后再试试看，我也会持续关注。如果大家有相关的答案也可以告知我。谢谢。
 
 ### 资料
-> http://www.jianshu.com/p/2c93d96bb084
 > https://developer.apple.com/documentation/corenfc#overview 
 > https://stackoverflow.com/questions/44380305/ios-11-core-nfc-any-sample-code 
 > https://developer.apple.com/videos/play/wwdc2017/718/ 
+> http://www.jianshu.com/nb/12053083
 
 ---
 - https://github.com/EchoZuo
