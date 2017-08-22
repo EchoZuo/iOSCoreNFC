@@ -3,7 +3,7 @@ This sample shows how to integrate Core NFC Framework into your application to e
 
 ## About Core NFC 
 #### Core NFC支持的读取数据类型：
-![image](http://note.youdao.com/yws/public/resource/357231ddfcbd2ad2f747cdb296ffb119/xmlnote/WEBRESOURCEafc5a7fd5f348a07cb90574a7a113202/11238)
+![image](https://raw.githubusercontent.com/EchoZuo/ECAuthorizationTools/master/Resource/1.png)
 
 #### Core NFC框架特性/要求
 - 目前支持NFC Tags（标签）的读取
@@ -16,9 +16,9 @@ This sample shows how to integrate Core NFC Framework into your application to e
 - （必须）像Apple pay或者Push Notification一样，需要添加一个entitlement
 - （保修）在plist文件中添加Privacy - NFC Scan Usage Description。这里使用的描述信息会显示在读取界面中
 
-![image](http://note.youdao.com/yws/public/resource/357231ddfcbd2ad2f747cdb296ffb119/xmlnote/WEBRESOURCEf04efe488cba4f9f77013612e0df8824/11242)
+![image](https://raw.githubusercontent.com/EchoZuo/ECAuthorizationTools/master/Resource/2.png)
 
-![image](http://note.youdao.com/yws/public/resource/357231ddfcbd2ad2f747cdb296ffb119/xmlnote/WEBRESOURCE97560d5f1c9e914a956b795b3463b1a1/11240)
+![image](https://raw.githubusercontent.com/EchoZuo/ECAuthorizationTools/master/Resource/3.png)
 
 #### 集成Core NFC中的一些细节说明
 - 设备读取标签是一个被动的过程，所以需要程序主动发起一个会话即为session去读取标签。与处理摄像头相关功能类似，所有的操作都必须建立在session基础之上
@@ -95,11 +95,11 @@ if ([ViewController isiPhone7oriPhone7Plus] && [UIDevice currentDevice].systemVe
 ```
 
 #### 运行效果图
-![image](http://note.youdao.com/yws/public/resource/357231ddfcbd2ad2f747cdb296ffb119/xmlnote/WEBRESOURCE26d39f1f1e2ffd6cc26c2d21cb1fc9ed/11303)
-![image](http://note.youdao.com/yws/public/resource/357231ddfcbd2ad2f747cdb296ffb119/xmlnote/WEBRESOURCE0c7abd24b157b01fb08ff06302c0cdb6/11306)
+![image](https://raw.githubusercontent.com/EchoZuo/ECAuthorizationTools/master/Resource/4.png)
+![image](https://raw.githubusercontent.com/EchoZuo/ECAuthorizationTools/master/Resource/5.png)
 ###### 由于身边的NFC卡片都未识别成功，所以图二识别完成后的截图为WWDC视频中的截图。
 
-##### 通过测试，目前用iphone7plus+iOS11测试读取上海公交卡、公司门禁卡，都没有读取成功，代码逻辑应该没有问题。可能是这些NFC芯片数据格式问题？不太确定是什么原因。不过貌似网上有人说是iOS11的问题，可以等iOS11正式版发布后再试试看，我也会持续关注。如果大家有相关的答案也可以告知我。谢谢。
+##### 通过测试，目前用iphone7plus+iOS11测试读取上海交通卡、公司门禁卡，都没有读取成功，代码逻辑应该没有问题。可能是这些NFC芯片数据格式问题？不太确定是什么原因。不过貌似网上有人说是iOS11的问题，可以等iOS11正式版发布后再试试看，我也会持续关注。如果大家有相关的答案也可以告知我。谢谢。
 
 ### 资料
 > https://developer.apple.com/documentation/corenfc#overview 
