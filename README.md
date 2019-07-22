@@ -109,9 +109,11 @@ if ([ViewController isiPhone7oriPhone7Plus] && [UIDevice currentDevice].systemVe
 > http://www.jianshu.com/nb/12053083
 
 ---
-- https://github.com/EchoZuo
-- Email: zuoqianheng@foxmail.com || QQ:615125175 
-- 简书：[@EchoZuo](http://www.jianshu.com/u/3390ce71084e)
-
+### Info
+- Blog：https://echozuo.github.io
+- jianshu：https://www.jianshu.com/u/3390ce71084e
+- CSDN：https://blog.csdn.net/zuoqianheng
+- Email: zuoqianheng@foxmail.com
+- Telegram：@echozuo
 
 
